@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "model.ledger"
+version = "0.1.0"
+description = "Token and dollar accounting for AI spend: cost by team and model, budget breaches, daily rollups, and spike detection. Dependency-free Python."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "AndMaverick LLC" }]
+
+[tool.setuptools.packages.find]
+include = ["model_ledger*"]
