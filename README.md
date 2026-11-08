@@ -34,3 +34,9 @@ python -m unittest discover -s tests -t . -v
 ```
 
 Part of a set of small, tested tools for running AI in production, alongside [mao-framework](https://github.com/AndMaverick/mao-framework). MIT licensed. Built by [AndMaverick LLC](https://www.andmaverick.com).
+
+---
+
+**Related reading:** [The Meter Is Running. Nobody Built the Architecture to Stop It.](https://blog.andmaverick.com/the-meter-is-running-nobody-built-the-architecture-to-stop-it?utm_source=github&utm_medium=repo&utm_campaign=model.ledger)
+
+**If this is your problem.** If your AI spend is outrunning your results, that is an architecture problem, and it is solvable. I am happy to look at it with you. [Begin a conversation](https://calendly.com/andmaverick?utm_source=github&utm_medium=repo&utm_campaign=model.ledger).
