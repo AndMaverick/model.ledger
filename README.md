@@ -1,8 +1,10 @@
 # model.ledger
 
-AI spend accounting that engineering and finance can both read, and an auditor can check. Every call is priced in exact decimals against a dated price book and written to a hash chained ledger, so any later change to the history is detectable. Shared costs are allocated to the cent, budgets are projected, spikes are flagged robustly, a change in spend is explained as a price, volume and mix bridge that adds up exactly, and the ledger is reconciled to the provider invoice with every dollar of difference assigned to a cause. Standard library only. Python 3.10 to 3.13.
+One team ships a prompt that doubles its context. The bill moves a month later, and by then nobody remembers which change did it.
 
-AI cost problems rarely announce themselves. One team ships a prompt that doubles its context, and the bill moves a month later. A ledger that attributes every call to a team and a model makes that visible the day it happens, and one that reconciles to the invoice makes it something finance will sign.
+model.ledger is AI spend accounting that engineering and finance can both read, and an auditor can check. Every call is priced in exact decimals against a dated price book and written to a hash chained ledger, so any later change to the history is detectable. Shared costs are allocated to the cent, budgets are projected, spikes are flagged robustly, a change in spend is explained as a price, volume and mix bridge that adds up exactly, and the ledger is reconciled to the provider invoice with every dollar of difference assigned to a cause. Standard library only. Python 3.10 to 3.13.
+
+A ledger that attributes every call to a team and a model makes a change like that visible the day it happens, and one that reconciles to the invoice makes it something finance will sign.
 
 ## Use
 
@@ -133,6 +135,8 @@ python -m unittest discover -s tests -t . -v
 - Reconciliation assigns each difference to usage or rate, but cannot say why. A rate variance can be a stale price book, a discount, a commitment or provider rounding; that is for a person to decide.
 - The example rates are illustrative, not any provider's price list. Load your own price book and check it against your contract before relying on a number.
 - The ledger shows tampering after the fact. It does not prevent it, and it does not authenticate who wrote the events: pin the head somewhere the writer cannot edit.
+
+**Related repositories:** [token.econ](https://github.com/AndMaverick/token.econ) turns the cost of a call into margin per user. [route.sense](https://github.com/AndMaverick/route.sense) chooses the model that earns its price. [mao-framework](https://github.com/AndMaverick/mao-framework) meters every attempt in exact decimals and writes a hash chained audit log for governed runs.
 
 Part of a set of small, tested tools for running AI in production, alongside [mao-framework](https://github.com/AndMaverick/mao-framework). MIT licensed. Built by [AndMaverick LLC](https://www.andmaverick.com).
 
