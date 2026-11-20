@@ -1,0 +1,6639 @@
+{
+ "as_of": "2026-10-31",
+ "budgets": [
+  {
+   "amount": 18000,
+   "period": "2026-10",
+   "team": "product"
+  },
+  {
+   "amount": 26000,
+   "period": "2026-10",
+   "team": "eng"
+  }
+ ],
+ "compare": {
+  "a": [
+   "2026-09-01",
+   "2026-09-30"
+  ],
+  "b": [
+   "2026-10-01",
+   "2026-10-31"
+  ]
+ },
+ "events": [
+  {
+   "cached_read_tokens": 29539415,
+   "day": "2026-09-01",
+   "id": "2026-09-01:0:eng/search:frontier-small",
+   "input_tokens": 88618246,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 8861824,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-09-01",
+   "id": "2026-09-01:1:eng/search:embedding",
+   "input_tokens": 412274356,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 5918605,
+   "day": "2026-09-01",
+   "id": "2026-09-01:2:eng/support-bot:frontier-large",
+   "input_tokens": 11837210,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2367442,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 1962191,
+   "day": "2026-09-01",
+   "id": "2026-09-01:3:product/assist:frontier-large",
+   "input_tokens": 6867671,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1765972,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-09-01",
+   "id": "2026-09-01:4:data/etl:frontier-small",
+   "input_tokens": 56651934,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 5665193,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-01",
+   "id": "2026-09-01:5:data/etl:frontier-small",
+   "input_tokens": 3948807,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 394880,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-01",
+   "id": "2026-09-01:6:unattributed:frontier-large",
+   "input_tokens": 12800580,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1706744,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 5212073,
+   "day": "2026-09-01",
+   "id": "2026-09-01:7:product/assist:frontier-large",
+   "input_tokens": 41696586,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 5212073,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 31961981,
+   "day": "2026-09-02",
+   "id": "2026-09-02:0:eng/search:frontier-small",
+   "input_tokens": 95885944,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 9588594,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-09-02",
+   "id": "2026-09-02:1:eng/search:embedding",
+   "input_tokens": 406785612,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 6166685,
+   "day": "2026-09-02",
+   "id": "2026-09-02:2:eng/support-bot:frontier-large",
+   "input_tokens": 12333371,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2466674,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2034372,
+   "day": "2026-09-02",
+   "id": "2026-09-02:3:product/assist:frontier-large",
+   "input_tokens": 7120304,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1830935,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-09-02",
+   "id": "2026-09-02:4:data/etl:frontier-small",
+   "input_tokens": 54002174,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 5400217,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-02",
+   "id": "2026-09-02:5:data/etl:frontier-small",
+   "input_tokens": 4205260,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 420526,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-02",
+   "id": "2026-09-02:6:unattributed:frontier-large",
+   "input_tokens": 12364597,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1648612,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 5249409,
+   "day": "2026-09-02",
+   "id": "2026-09-02:7:product/assist:frontier-large",
+   "input_tokens": 41995272,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 5249409,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 27117519,
+   "day": "2026-09-03",
+   "id": "2026-09-03:0:eng/search:frontier-small",
+   "input_tokens": 81352559,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 8135255,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-09-03",
+   "id": "2026-09-03:1:eng/search:embedding",
+   "input_tokens": 359580704,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 5725267,
+   "day": "2026-09-03",
+   "id": "2026-09-03:2:eng/support-bot:frontier-large",
+   "input_tokens": 11450534,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2290106,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 1967213,
+   "day": "2026-09-03",
+   "id": "2026-09-03:3:product/assist:frontier-large",
+   "input_tokens": 6885245,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1770491,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-09-03",
+   "id": "2026-09-03:4:data/etl:frontier-small",
+   "input_tokens": 61099605,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6109960,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-03",
+   "id": "2026-09-03:5:data/etl:frontier-small",
+   "input_tokens": 3988981,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 398898,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-03",
+   "id": "2026-09-03:6:unattributed:frontier-large",
+   "input_tokens": 12375101,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1650013,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 4678882,
+   "day": "2026-09-03",
+   "id": "2026-09-03:7:product/assist:frontier-large",
+   "input_tokens": 37431061,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 4678882,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 30831492,
+   "day": "2026-09-04",
+   "id": "2026-09-04:0:eng/search:frontier-small",
+   "input_tokens": 92494477,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 9249447,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-09-04",
+   "id": "2026-09-04:1:eng/search:embedding",
+   "input_tokens": 411921382,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 5831411,
+   "day": "2026-09-04",
+   "id": "2026-09-04:2:eng/support-bot:frontier-large",
+   "input_tokens": 11662822,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2332564,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2246052,
+   "day": "2026-09-04",
+   "id": "2026-09-04:3:product/assist:frontier-large",
+   "input_tokens": 7861182,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2021447,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-09-04",
+   "id": "2026-09-04:4:data/etl:frontier-small",
+   "input_tokens": 62003793,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6200379,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-04",
+   "id": "2026-09-04:5:data/etl:frontier-small",
+   "input_tokens": 4287281,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 428728,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-04",
+   "id": "2026-09-04:6:unattributed:frontier-large",
+   "input_tokens": 11553360,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1540448,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 4630242,
+   "day": "2026-09-04",
+   "id": "2026-09-04:7:product/assist:frontier-large",
+   "input_tokens": 37041936,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 4630242,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 11893949,
+   "day": "2026-09-05",
+   "id": "2026-09-05:0:eng/search:frontier-small",
+   "input_tokens": 35681849,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 3568184,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-09-05",
+   "id": "2026-09-05:1:eng/search:embedding",
+   "input_tokens": 160254002,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 2531115,
+   "day": "2026-09-05",
+   "id": "2026-09-05:2:eng/support-bot:frontier-large",
+   "input_tokens": 5062230,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1012446,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 831586,
+   "day": "2026-09-05",
+   "id": "2026-09-05:3:product/assist:frontier-large",
+   "input_tokens": 2910553,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 748428,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-09-05",
+   "id": "2026-09-05:4:data/etl:frontier-small",
+   "input_tokens": 58389522,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 5838952,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-05",
+   "id": "2026-09-05:5:data/etl:frontier-small",
+   "input_tokens": 1508136,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 150813,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-05",
+   "id": "2026-09-05:6:unattributed:frontier-large",
+   "input_tokens": 4650069,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 620009,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 3927322,
+   "day": "2026-09-05",
+   "id": "2026-09-05:7:product/assist:frontier-large",
+   "input_tokens": 31418579,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 3927322,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 11590583,
+   "day": "2026-09-06",
+   "id": "2026-09-06:0:eng/search:frontier-small",
+   "input_tokens": 34771750,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 3477175,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-09-06",
+   "id": "2026-09-06:1:eng/search:embedding",
+   "input_tokens": 163979687,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 2511042,
+   "day": "2026-09-06",
+   "id": "2026-09-06:2:eng/support-bot:frontier-large",
+   "input_tokens": 5022085,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1004417,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 750610,
+   "day": "2026-09-06",
+   "id": "2026-09-06:3:product/assist:frontier-large",
+   "input_tokens": 2627138,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 675549,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-09-06",
+   "id": "2026-09-06:4:data/etl:frontier-small",
+   "input_tokens": 60174507,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6017450,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-06",
+   "id": "2026-09-06:5:data/etl:frontier-small",
+   "input_tokens": 1725399,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 172539,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-06",
+   "id": "2026-09-06:6:unattributed:frontier-large",
+   "input_tokens": 4219863,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 562648,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 3387442,
+   "day": "2026-09-06",
+   "id": "2026-09-06:7:product/assist:frontier-large",
+   "input_tokens": 27099537,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 3387442,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 30349550,
+   "day": "2026-09-07",
+   "id": "2026-09-07:0:eng/search:frontier-small",
+   "input_tokens": 91048652,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 9104865,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-09-07",
+   "id": "2026-09-07:1:eng/search:embedding",
+   "input_tokens": 384973265,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 6328848,
+   "day": "2026-09-07",
+   "id": "2026-09-07:2:eng/support-bot:frontier-large",
+   "input_tokens": 12657697,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2531539,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2065341,
+   "day": "2026-09-07",
+   "id": "2026-09-07:3:product/assist:frontier-large",
+   "input_tokens": 7228696,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1858807,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-09-07",
+   "id": "2026-09-07:4:data/etl:frontier-small",
+   "input_tokens": 54727236,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 5472723,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-07",
+   "id": "2026-09-07:5:data/etl:frontier-small",
+   "input_tokens": 4198683,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 419868,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-07",
+   "id": "2026-09-07:6:unattributed:frontier-large",
+   "input_tokens": 12481921,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1664256,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 5472920,
+   "day": "2026-09-07",
+   "id": "2026-09-07:7:product/assist:frontier-large",
+   "input_tokens": 43783367,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 5472920,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 33283720,
+   "day": "2026-09-08",
+   "id": "2026-09-08:0:eng/search:frontier-small",
+   "input_tokens": 99851162,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 9985116,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-09-08",
+   "id": "2026-09-08:1:eng/search:embedding",
+   "input_tokens": 414450006,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 6214184,
+   "day": "2026-09-08",
+   "id": "2026-09-08:2:eng/support-bot:frontier-large",
+   "input_tokens": 12428369,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2485673,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 1922960,
+   "day": "2026-09-08",
+   "id": "2026-09-08:3:product/assist:frontier-large",
+   "input_tokens": 6730360,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1730664,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-09-08",
+   "id": "2026-09-08:4:data/etl:frontier-small",
+   "input_tokens": 62215595,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6221559,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-08",
+   "id": "2026-09-08:5:data/etl:frontier-small",
+   "input_tokens": 3853177,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 385317,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-08",
+   "id": "2026-09-08:6:unattributed:frontier-large",
+   "input_tokens": 11674054,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1556540,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 4367606,
+   "day": "2026-09-08",
+   "id": "2026-09-08:7:product/assist:frontier-large",
+   "input_tokens": 34940848,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 4367606,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 28943657,
+   "day": "2026-09-09",
+   "id": "2026-09-09:0:eng/search:frontier-small",
+   "input_tokens": 86830971,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 8683097,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-09-09",
+   "id": "2026-09-09:1:eng/search:embedding",
+   "input_tokens": 393492689,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 6673748,
+   "day": "2026-09-09",
+   "id": "2026-09-09:2:eng/support-bot:frontier-large",
+   "input_tokens": 13347496,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2669499,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 1842273,
+   "day": "2026-09-09",
+   "id": "2026-09-09:3:product/assist:frontier-large",
+   "input_tokens": 6447957,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1658046,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-09-09",
+   "id": "2026-09-09:4:data/etl:frontier-small",
+   "input_tokens": 54752260,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 5475226,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-09",
+   "id": "2026-09-09:5:data/etl:frontier-small",
+   "input_tokens": 4057444,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 405744,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-09",
+   "id": "2026-09-09:6:unattributed:frontier-large",
+   "input_tokens": 13039211,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1738561,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 5289248,
+   "day": "2026-09-09",
+   "id": "2026-09-09:7:product/assist:frontier-large",
+   "input_tokens": 42313987,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 5289248,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 27306437,
+   "day": "2026-09-10",
+   "id": "2026-09-10:0:eng/search:frontier-small",
+   "input_tokens": 81919312,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 8191931,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-09-10",
+   "id": "2026-09-10:1:eng/search:embedding",
+   "input_tokens": 345723612,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 6352858,
+   "day": "2026-09-10",
+   "id": "2026-09-10:2:eng/support-bot:frontier-large",
+   "input_tokens": 12705716,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2541143,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2017390,
+   "day": "2026-09-10",
+   "id": "2026-09-10:3:product/assist:frontier-large",
+   "input_tokens": 7060865,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1815651,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-09-10",
+   "id": "2026-09-10:4:data/etl:frontier-small",
+   "input_tokens": 55968768,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 5596876,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-10",
+   "id": "2026-09-10:5:data/etl:frontier-small",
+   "input_tokens": 4234569,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 423456,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-10",
+   "id": "2026-09-10:6:unattributed:frontier-large",
+   "input_tokens": 12793286,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1705771,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 5078625,
+   "day": "2026-09-10",
+   "id": "2026-09-10:7:product/assist:frontier-large",
+   "input_tokens": 40629007,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 5078625,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 31368097,
+   "day": "2026-09-11",
+   "id": "2026-09-11:0:eng/search:frontier-small",
+   "input_tokens": 94104293,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 9410429,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-09-11",
+   "id": "2026-09-11:1:eng/search:embedding",
+   "input_tokens": 418707473,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 6841579,
+   "day": "2026-09-11",
+   "id": "2026-09-11:2:eng/support-bot:frontier-large",
+   "input_tokens": 13683158,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2736631,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2202155,
+   "day": "2026-09-11",
+   "id": "2026-09-11:3:product/assist:frontier-large",
+   "input_tokens": 7707542,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1981939,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-09-11",
+   "id": "2026-09-11:4:data/etl:frontier-small",
+   "input_tokens": 61867138,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6186713,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-11",
+   "id": "2026-09-11:5:data/etl:frontier-small",
+   "input_tokens": 4131457,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 413145,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-11",
+   "id": "2026-09-11:6:unattributed:frontier-large",
+   "input_tokens": 10870816,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1449442,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 5640866,
+   "day": "2026-09-11",
+   "id": "2026-09-11:7:product/assist:frontier-large",
+   "input_tokens": 45126934,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 5640866,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 13112703,
+   "day": "2026-09-12",
+   "id": "2026-09-12:0:eng/search:frontier-small",
+   "input_tokens": 39338111,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 3933811,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-09-12",
+   "id": "2026-09-12:1:eng/search:embedding",
+   "input_tokens": 168752781,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 2210739,
+   "day": "2026-09-12",
+   "id": "2026-09-12:2:eng/support-bot:frontier-large",
+   "input_tokens": 4421479,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 884295,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 821927,
+   "day": "2026-09-12",
+   "id": "2026-09-12:3:product/assist:frontier-large",
+   "input_tokens": 2876745,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 739734,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-09-12",
+   "id": "2026-09-12:4:data/etl:frontier-small",
+   "input_tokens": 63032292,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6303229,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-12",
+   "id": "2026-09-12:5:data/etl:frontier-small",
+   "input_tokens": 1426123,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 142612,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-12",
+   "id": "2026-09-12:6:unattributed:frontier-large",
+   "input_tokens": 4747001,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 632933,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 3856834,
+   "day": "2026-09-12",
+   "id": "2026-09-12:7:product/assist:frontier-large",
+   "input_tokens": 30854677,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 3856834,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 11460591,
+   "day": "2026-09-13",
+   "id": "2026-09-13:0:eng/search:frontier-small",
+   "input_tokens": 34381774,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 3438177,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-09-13",
+   "id": "2026-09-13:1:eng/search:embedding",
+   "input_tokens": 179714618,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 2601151,
+   "day": "2026-09-13",
+   "id": "2026-09-13:2:eng/support-bot:frontier-large",
+   "input_tokens": 5202303,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1040460,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 851796,
+   "day": "2026-09-13",
+   "id": "2026-09-13:3:product/assist:frontier-large",
+   "input_tokens": 2981287,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 766616,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-09-13",
+   "id": "2026-09-13:4:data/etl:frontier-small",
+   "input_tokens": 61169520,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6116952,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-13",
+   "id": "2026-09-13:5:data/etl:frontier-small",
+   "input_tokens": 1662383,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 166238,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-13",
+   "id": "2026-09-13:6:unattributed:frontier-large",
+   "input_tokens": 4834673,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 644623,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 3900981,
+   "day": "2026-09-13",
+   "id": "2026-09-13:7:product/assist:frontier-large",
+   "input_tokens": 31207848,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 3900981,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 29953227,
+   "day": "2026-09-14",
+   "id": "2026-09-14:0:eng/search:frontier-small",
+   "input_tokens": 89859682,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 8985968,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-09-14",
+   "id": "2026-09-14:1:eng/search:embedding",
+   "input_tokens": 400310128,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 6714580,
+   "day": "2026-09-14",
+   "id": "2026-09-14:2:eng/support-bot:frontier-large",
+   "input_tokens": 13429161,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2685832,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2165217,
+   "day": "2026-09-14",
+   "id": "2026-09-14:3:product/assist:frontier-large",
+   "input_tokens": 7578260,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1948695,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-09-14",
+   "id": "2026-09-14:4:data/etl:frontier-small",
+   "input_tokens": 56830329,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 5683032,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-14",
+   "id": "2026-09-14:5:data/etl:frontier-small",
+   "input_tokens": 4227149,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 422714,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-14",
+   "id": "2026-09-14:6:unattributed:frontier-large",
+   "input_tokens": 13055158,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1740687,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 4777586,
+   "day": "2026-09-14",
+   "id": "2026-09-14:7:product/assist:frontier-large",
+   "input_tokens": 38220695,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 4777586,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 28694493,
+   "day": "2026-09-15",
+   "id": "2026-09-15:0:eng/search:frontier-small",
+   "input_tokens": 86083479,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 8608347,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-09-15",
+   "id": "2026-09-15:1:eng/search:embedding",
+   "input_tokens": 408021076,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 6288146,
+   "day": "2026-09-15",
+   "id": "2026-09-15:2:eng/support-bot:frontier-large",
+   "input_tokens": 12576293,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2515258,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2135828,
+   "day": "2026-09-15",
+   "id": "2026-09-15:3:product/assist:frontier-large",
+   "input_tokens": 7475398,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1922245,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-09-15",
+   "id": "2026-09-15:4:data/etl:frontier-small",
+   "input_tokens": 65057173,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6505717,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-15",
+   "id": "2026-09-15:5:data/etl:frontier-small",
+   "input_tokens": 3753535,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 375353,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-15",
+   "id": "2026-09-15:6:unattributed:frontier-large",
+   "input_tokens": 12907622,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1721016,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 4365839,
+   "day": "2026-09-15",
+   "id": "2026-09-15:7:product/assist:frontier-large",
+   "input_tokens": 34926712,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 4365839,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 29896944,
+   "day": "2026-09-16",
+   "id": "2026-09-16:0:eng/search:frontier-small",
+   "input_tokens": 89690833,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 8969083,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-09-16",
+   "id": "2026-09-16:1:eng/search:embedding",
+   "input_tokens": 427787092,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 6801659,
+   "day": "2026-09-16",
+   "id": "2026-09-16:2:eng/support-bot:frontier-large",
+   "input_tokens": 13603319,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2720663,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2300517,
+   "day": "2026-09-16",
+   "id": "2026-09-16:3:product/assist:frontier-large",
+   "input_tokens": 8051811,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2070465,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-09-16",
+   "id": "2026-09-16:4:data/etl:frontier-small",
+   "input_tokens": 61242809,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6124280,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-16",
+   "id": "2026-09-16:5:data/etl:frontier-small",
+   "input_tokens": 4034165,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 403416,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-16",
+   "id": "2026-09-16:6:unattributed:frontier-large",
+   "input_tokens": 12109786,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1614638,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 5287640,
+   "day": "2026-09-16",
+   "id": "2026-09-16:7:product/assist:frontier-large",
+   "input_tokens": 42301121,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 5287640,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 31140131,
+   "day": "2026-09-17",
+   "id": "2026-09-17:0:eng/search:frontier-small",
+   "input_tokens": 93420395,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 9342039,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-09-17",
+   "id": "2026-09-17:1:eng/search:embedding",
+   "input_tokens": 419868564,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 6615518,
+   "day": "2026-09-17",
+   "id": "2026-09-17:2:eng/support-bot:frontier-large",
+   "input_tokens": 13231036,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2646207,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2200997,
+   "day": "2026-09-17",
+   "id": "2026-09-17:3:product/assist:frontier-large",
+   "input_tokens": 7703491,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1980897,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-09-17",
+   "id": "2026-09-17:4:data/etl:frontier-small",
+   "input_tokens": 62750336,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6275033,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-17",
+   "id": "2026-09-17:5:data/etl:frontier-small",
+   "input_tokens": 4135810,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 413581,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-17",
+   "id": "2026-09-17:6:unattributed:frontier-large",
+   "input_tokens": 13447655,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1793020,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 5162471,
+   "day": "2026-09-17",
+   "id": "2026-09-17:7:product/assist:frontier-large",
+   "input_tokens": 41299770,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 5162471,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 30757399,
+   "day": "2026-09-18",
+   "id": "2026-09-18:0:eng/search:frontier-small",
+   "input_tokens": 92272199,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 9227219,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-09-18",
+   "id": "2026-09-18:1:eng/search:embedding",
+   "input_tokens": 404569647,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 6416271,
+   "day": "2026-09-18",
+   "id": "2026-09-18:2:eng/support-bot:frontier-large",
+   "input_tokens": 12832542,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2566508,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2336812,
+   "day": "2026-09-18",
+   "id": "2026-09-18:3:product/assist:frontier-large",
+   "input_tokens": 8178844,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2103131,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-09-18",
+   "id": "2026-09-18:4:data/etl:frontier-small",
+   "input_tokens": 58788370,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 5878837,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-18",
+   "id": "2026-09-18:5:data/etl:frontier-small",
+   "input_tokens": 4092598,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 409259,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-18",
+   "id": "2026-09-18:6:unattributed:frontier-large",
+   "input_tokens": 13322856,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1776380,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 3717660,
+   "day": "2026-09-18",
+   "id": "2026-09-18:7:product/assist:frontier-large",
+   "input_tokens": 29741282,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 3717660,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 11810747,
+   "day": "2026-09-19",
+   "id": "2026-09-19:0:eng/search:frontier-small",
+   "input_tokens": 35432241,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 3543224,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-09-19",
+   "id": "2026-09-19:1:eng/search:embedding",
+   "input_tokens": 168286122,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 2640436,
+   "day": "2026-09-19",
+   "id": "2026-09-19:2:eng/support-bot:frontier-large",
+   "input_tokens": 5280872,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1056174,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 903704,
+   "day": "2026-09-19",
+   "id": "2026-09-19:3:product/assist:frontier-large",
+   "input_tokens": 3162964,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 813333,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-09-19",
+   "id": "2026-09-19:4:data/etl:frontier-small",
+   "input_tokens": 58447854,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 5844785,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-19",
+   "id": "2026-09-19:5:data/etl:frontier-small",
+   "input_tokens": 1662894,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 166289,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-19",
+   "id": "2026-09-19:6:unattributed:frontier-large",
+   "input_tokens": 4881253,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 650833,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 3317282,
+   "day": "2026-09-19",
+   "id": "2026-09-19:7:product/assist:frontier-large",
+   "input_tokens": 26538256,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 3317282,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 14554892,
+   "day": "2026-09-20",
+   "id": "2026-09-20:0:eng/search:frontier-small",
+   "input_tokens": 43664678,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 4366467,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-09-20",
+   "id": "2026-09-20:1:eng/search:embedding",
+   "input_tokens": 169731876,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 2503019,
+   "day": "2026-09-20",
+   "id": "2026-09-20:2:eng/support-bot:frontier-large",
+   "input_tokens": 5006039,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1001207,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 890948,
+   "day": "2026-09-20",
+   "id": "2026-09-20:3:product/assist:frontier-large",
+   "input_tokens": 3118318,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 801853,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-09-20",
+   "id": "2026-09-20:4:data/etl:frontier-small",
+   "input_tokens": 59187856,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 5918785,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-20",
+   "id": "2026-09-20:5:data/etl:frontier-small",
+   "input_tokens": 1593976,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 159397,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-20",
+   "id": "2026-09-20:6:unattributed:frontier-large",
+   "input_tokens": 4014311,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 535241,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 3329585,
+   "day": "2026-09-20",
+   "id": "2026-09-20:7:product/assist:frontier-large",
+   "input_tokens": 26636682,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 3329585,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 33779746,
+   "day": "2026-09-21",
+   "id": "2026-09-21:0:eng/search:frontier-small",
+   "input_tokens": 101339240,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 10133924,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-09-21",
+   "id": "2026-09-21:1:eng/search:embedding",
+   "input_tokens": 387118792,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 6472677,
+   "day": "2026-09-21",
+   "id": "2026-09-21:2:eng/support-bot:frontier-large",
+   "input_tokens": 12945354,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2589070,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2383147,
+   "day": "2026-09-21",
+   "id": "2026-09-21:3:product/assist:frontier-large",
+   "input_tokens": 8341017,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2144833,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-09-21",
+   "id": "2026-09-21:4:data/etl:frontier-small",
+   "input_tokens": 63082236,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6308223,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-21",
+   "id": "2026-09-21:5:data/etl:frontier-small",
+   "input_tokens": 4357852,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 435785,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-21",
+   "id": "2026-09-21:6:unattributed:frontier-large",
+   "input_tokens": 10774982,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1436664,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 4823311,
+   "day": "2026-09-21",
+   "id": "2026-09-21:7:product/assist:frontier-large",
+   "input_tokens": 38586495,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 4823311,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 31294236,
+   "day": "2026-09-22",
+   "id": "2026-09-22:0:eng/search:frontier-small",
+   "input_tokens": 93882708,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 9388270,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-09-22",
+   "id": "2026-09-22:1:eng/search:embedding",
+   "input_tokens": 432740253,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 6952093,
+   "day": "2026-09-22",
+   "id": "2026-09-22:2:eng/support-bot:frontier-large",
+   "input_tokens": 13904187,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2780837,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 1902677,
+   "day": "2026-09-22",
+   "id": "2026-09-22:3:product/assist:frontier-large",
+   "input_tokens": 6659371,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1712409,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-09-22",
+   "id": "2026-09-22:4:data/etl:frontier-small",
+   "input_tokens": 63919245,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6391924,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-22",
+   "id": "2026-09-22:5:data/etl:frontier-small",
+   "input_tokens": 3652589,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 365258,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-22",
+   "id": "2026-09-22:6:unattributed:frontier-large",
+   "input_tokens": 12491867,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1665582,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 4253930,
+   "day": "2026-09-22",
+   "id": "2026-09-22:7:product/assist:frontier-large",
+   "input_tokens": 34031446,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 4253930,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 32381733,
+   "day": "2026-09-23",
+   "id": "2026-09-23:0:eng/search:frontier-small",
+   "input_tokens": 97145199,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 9714519,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-09-23",
+   "id": "2026-09-23:1:eng/search:embedding",
+   "input_tokens": 447934690,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 6492089,
+   "day": "2026-09-23",
+   "id": "2026-09-23:2:eng/support-bot:frontier-large",
+   "input_tokens": 12984178,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2596835,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2307474,
+   "day": "2026-09-23",
+   "id": "2026-09-23:3:product/assist:frontier-large",
+   "input_tokens": 8076161,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2076727,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-09-23",
+   "id": "2026-09-23:4:data/etl:frontier-small",
+   "input_tokens": 62869645,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6286964,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-23",
+   "id": "2026-09-23:5:data/etl:frontier-small",
+   "input_tokens": 4033930,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 403393,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-23",
+   "id": "2026-09-23:6:unattributed:frontier-large",
+   "input_tokens": 11936293,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1591505,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 5766628,
+   "day": "2026-09-23",
+   "id": "2026-09-23:7:product/assist:frontier-large",
+   "input_tokens": 46133024,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 5766628,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 34161622,
+   "day": "2026-09-24",
+   "id": "2026-09-24:0:eng/search:frontier-small",
+   "input_tokens": 102484867,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 10248486,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-09-24",
+   "id": "2026-09-24:1:eng/search:embedding",
+   "input_tokens": 411427353,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 7660339,
+   "day": "2026-09-24",
+   "id": "2026-09-24:2:eng/support-bot:frontier-large",
+   "input_tokens": 15320678,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 3064135,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2137084,
+   "day": "2026-09-24",
+   "id": "2026-09-24:3:product/assist:frontier-large",
+   "input_tokens": 7479795,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1923376,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-09-24",
+   "id": "2026-09-24:4:data/etl:frontier-small",
+   "input_tokens": 63292592,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6329259,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-24",
+   "id": "2026-09-24:5:data/etl:frontier-small",
+   "input_tokens": 3936228,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 393622,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-24",
+   "id": "2026-09-24:6:unattributed:frontier-large",
+   "input_tokens": 12095303,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1612707,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 5352502,
+   "day": "2026-09-24",
+   "id": "2026-09-24:7:product/assist:frontier-large",
+   "input_tokens": 42820022,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 5352502,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 32666001,
+   "day": "2026-09-25",
+   "id": "2026-09-25:0:eng/search:frontier-small",
+   "input_tokens": 97998003,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 9799800,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-09-25",
+   "id": "2026-09-25:1:eng/search:embedding",
+   "input_tokens": 435728524,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 5998167,
+   "day": "2026-09-25",
+   "id": "2026-09-25:2:eng/support-bot:frontier-large",
+   "input_tokens": 11996334,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2399266,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2099667,
+   "day": "2026-09-25",
+   "id": "2026-09-25:3:product/assist:frontier-large",
+   "input_tokens": 7348835,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1889700,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-09-25",
+   "id": "2026-09-25:4:data/etl:frontier-small",
+   "input_tokens": 62213793,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6221379,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-25",
+   "id": "2026-09-25:5:data/etl:frontier-small",
+   "input_tokens": 3768841,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 376884,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-25",
+   "id": "2026-09-25:6:unattributed:frontier-large",
+   "input_tokens": 11260813,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1501441,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 4264930,
+   "day": "2026-09-25",
+   "id": "2026-09-25:7:product/assist:frontier-large",
+   "input_tokens": 34119442,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 4264930,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 13915855,
+   "day": "2026-09-26",
+   "id": "2026-09-26:0:eng/search:frontier-small",
+   "input_tokens": 41747565,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 4174756,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-09-26",
+   "id": "2026-09-26:1:eng/search:embedding",
+   "input_tokens": 175729015,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 2886266,
+   "day": "2026-09-26",
+   "id": "2026-09-26:2:eng/support-bot:frontier-large",
+   "input_tokens": 5772532,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1154506,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 876778,
+   "day": "2026-09-26",
+   "id": "2026-09-26:3:product/assist:frontier-large",
+   "input_tokens": 3068724,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 789100,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-09-26",
+   "id": "2026-09-26:4:data/etl:frontier-small",
+   "input_tokens": 60003622,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6000362,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-26",
+   "id": "2026-09-26:5:data/etl:frontier-small",
+   "input_tokens": 1490530,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 149053,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-26",
+   "id": "2026-09-26:6:unattributed:frontier-large",
+   "input_tokens": 5020618,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 669415,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 4056298,
+   "day": "2026-09-26",
+   "id": "2026-09-26:7:product/assist:frontier-large",
+   "input_tokens": 32450384,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 4056298,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 12279082,
+   "day": "2026-09-27",
+   "id": "2026-09-27:0:eng/search:frontier-small",
+   "input_tokens": 36837247,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 3683724,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-09-27",
+   "id": "2026-09-27:1:eng/search:embedding",
+   "input_tokens": 184309256,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 2820325,
+   "day": "2026-09-27",
+   "id": "2026-09-27:2:eng/support-bot:frontier-large",
+   "input_tokens": 5640651,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1128130,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 924652,
+   "day": "2026-09-27",
+   "id": "2026-09-27:3:product/assist:frontier-large",
+   "input_tokens": 3236284,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 832187,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-09-27",
+   "id": "2026-09-27:4:data/etl:frontier-small",
+   "input_tokens": 52900905,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 5290090,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-27",
+   "id": "2026-09-27:5:data/etl:frontier-small",
+   "input_tokens": 1735036,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 173503,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-27",
+   "id": "2026-09-27:6:unattributed:frontier-large",
+   "input_tokens": 4772276,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 636303,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 3289010,
+   "day": "2026-09-27",
+   "id": "2026-09-27:7:product/assist:frontier-large",
+   "input_tokens": 26312080,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 3289010,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 33307045,
+   "day": "2026-09-28",
+   "id": "2026-09-28:0:eng/search:frontier-small",
+   "input_tokens": 99921135,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 9992113,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-09-28",
+   "id": "2026-09-28:1:eng/search:embedding",
+   "input_tokens": 432555578,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 7283539,
+   "day": "2026-09-28",
+   "id": "2026-09-28:2:eng/support-bot:frontier-large",
+   "input_tokens": 14567078,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2913415,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2206706,
+   "day": "2026-09-28",
+   "id": "2026-09-28:3:product/assist:frontier-large",
+   "input_tokens": 7723474,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1986036,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-09-28",
+   "id": "2026-09-28:4:data/etl:frontier-small",
+   "input_tokens": 64090454,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6409045,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-28",
+   "id": "2026-09-28:5:data/etl:frontier-small",
+   "input_tokens": 4356966,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 435696,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-28",
+   "id": "2026-09-28:6:unattributed:frontier-large",
+   "input_tokens": 13045609,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1739414,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 4909687,
+   "day": "2026-09-28",
+   "id": "2026-09-28:7:product/assist:frontier-large",
+   "input_tokens": 39277501,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 4909687,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 31168338,
+   "day": "2026-09-29",
+   "id": "2026-09-29:0:eng/search:frontier-small",
+   "input_tokens": 93505016,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 9350501,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-09-29",
+   "id": "2026-09-29:1:eng/search:embedding",
+   "input_tokens": 448867733,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 6755948,
+   "day": "2026-09-29",
+   "id": "2026-09-29:2:eng/support-bot:frontier-large",
+   "input_tokens": 13511897,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2702379,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2382306,
+   "day": "2026-09-29",
+   "id": "2026-09-29:3:product/assist:frontier-large",
+   "input_tokens": 8338071,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2144075,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-09-29",
+   "id": "2026-09-29:4:data/etl:frontier-small",
+   "input_tokens": 65127172,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6512717,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-29",
+   "id": "2026-09-29:5:data/etl:frontier-small",
+   "input_tokens": 3936775,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 393677,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-29",
+   "id": "2026-09-29:6:unattributed:frontier-large",
+   "input_tokens": 10346357,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1379514,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 4806404,
+   "day": "2026-09-29",
+   "id": "2026-09-29:7:product/assist:frontier-large",
+   "input_tokens": 38451235,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 4806404,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 29082722,
+   "day": "2026-09-30",
+   "id": "2026-09-30:0:eng/search:frontier-small",
+   "input_tokens": 87248168,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 8724816,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-09-30",
+   "id": "2026-09-30:1:eng/search:embedding",
+   "input_tokens": 444684487,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 6864557,
+   "day": "2026-09-30",
+   "id": "2026-09-30:2:eng/support-bot:frontier-large",
+   "input_tokens": 13729114,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2745822,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2291634,
+   "day": "2026-09-30",
+   "id": "2026-09-30:3:product/assist:frontier-large",
+   "input_tokens": 8020722,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2062471,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-09-30",
+   "id": "2026-09-30:4:data/etl:frontier-small",
+   "input_tokens": 59965442,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 5996544,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-30",
+   "id": "2026-09-30:5:data/etl:frontier-small",
+   "input_tokens": 4199829,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 419982,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-09-30",
+   "id": "2026-09-30:6:unattributed:frontier-large",
+   "input_tokens": 12056840,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1607578,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 5663260,
+   "day": "2026-09-30",
+   "id": "2026-09-30:7:product/assist:frontier-large",
+   "input_tokens": 45306086,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 5663260,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 32700121,
+   "day": "2026-10-01",
+   "id": "2026-10-01:0:eng/search:frontier-small",
+   "input_tokens": 98100363,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 9810036,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-10-01",
+   "id": "2026-10-01:1:eng/search:embedding",
+   "input_tokens": 451219552,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 7368607,
+   "day": "2026-10-01",
+   "id": "2026-10-01:2:eng/support-bot:frontier-large",
+   "input_tokens": 14737214,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2947442,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2624309,
+   "day": "2026-10-01",
+   "id": "2026-10-01:3:product/assist:frontier-large",
+   "input_tokens": 9185084,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2361878,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-10-01",
+   "id": "2026-10-01:4:data/etl:frontier-small",
+   "input_tokens": 57581450,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 5758145,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-01",
+   "id": "2026-10-01:5:data/etl:frontier-small",
+   "input_tokens": 4211177,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 421117,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-01",
+   "id": "2026-10-01:6:unattributed:frontier-large",
+   "input_tokens": 10649282,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1419904,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 4458325,
+   "day": "2026-10-01",
+   "id": "2026-10-01:7:product/assist:frontier-large",
+   "input_tokens": 35666602,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 4458325,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 29042448,
+   "day": "2026-10-02",
+   "id": "2026-10-02:0:eng/search:frontier-small",
+   "input_tokens": 87127346,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 8712734,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-10-02",
+   "id": "2026-10-02:1:eng/search:embedding",
+   "input_tokens": 452853548,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 6288494,
+   "day": "2026-10-02",
+   "id": "2026-10-02:2:eng/support-bot:frontier-large",
+   "input_tokens": 12576989,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2515397,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2405662,
+   "day": "2026-10-02",
+   "id": "2026-10-02:3:product/assist:frontier-large",
+   "input_tokens": 8419818,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2165096,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-10-02",
+   "id": "2026-10-02:4:data/etl:frontier-small",
+   "input_tokens": 59308029,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 5930802,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-02",
+   "id": "2026-10-02:5:data/etl:frontier-small",
+   "input_tokens": 3993136,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 399313,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-02",
+   "id": "2026-10-02:6:unattributed:frontier-large",
+   "input_tokens": 11574104,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1543213,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 5116831,
+   "day": "2026-10-02",
+   "id": "2026-10-02:7:product/assist:frontier-large",
+   "input_tokens": 40934652,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 5116831,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 14626669,
+   "day": "2026-10-03",
+   "id": "2026-10-03:0:eng/search:frontier-small",
+   "input_tokens": 43880007,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 4388000,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-10-03",
+   "id": "2026-10-03:1:eng/search:embedding",
+   "input_tokens": 171016918,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 2813911,
+   "day": "2026-10-03",
+   "id": "2026-10-03:2:eng/support-bot:frontier-large",
+   "input_tokens": 5627822,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1125564,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 1026937,
+   "day": "2026-10-03",
+   "id": "2026-10-03:3:product/assist:frontier-large",
+   "input_tokens": 3594281,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 924243,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-10-03",
+   "id": "2026-10-03:4:data/etl:frontier-small",
+   "input_tokens": 59287388,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 5928738,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-03",
+   "id": "2026-10-03:5:data/etl:frontier-small",
+   "input_tokens": 1479069,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 147906,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-03",
+   "id": "2026-10-03:6:unattributed:frontier-large",
+   "input_tokens": 4640046,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 618672,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 3875758,
+   "day": "2026-10-03",
+   "id": "2026-10-03:7:product/assist:frontier-large",
+   "input_tokens": 31006065,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 3875758,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 11938395,
+   "day": "2026-10-04",
+   "id": "2026-10-04:0:eng/search:frontier-small",
+   "input_tokens": 35815187,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 3581518,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-10-04",
+   "id": "2026-10-04:1:eng/search:embedding",
+   "input_tokens": 164774518,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 2903432,
+   "day": "2026-10-04",
+   "id": "2026-10-04:2:eng/support-bot:frontier-large",
+   "input_tokens": 5806865,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1161373,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 1020948,
+   "day": "2026-10-04",
+   "id": "2026-10-04:3:product/assist:frontier-large",
+   "input_tokens": 3573321,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 918853,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-10-04",
+   "id": "2026-10-04:4:data/etl:frontier-small",
+   "input_tokens": 60027425,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6002742,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-04",
+   "id": "2026-10-04:5:data/etl:frontier-small",
+   "input_tokens": 1677302,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 167730,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-04",
+   "id": "2026-10-04:6:unattributed:frontier-large",
+   "input_tokens": 4847802,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 646373,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 3087379,
+   "day": "2026-10-04",
+   "id": "2026-10-04:7:product/assist:frontier-large",
+   "input_tokens": 24699036,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 3087379,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 30099516,
+   "day": "2026-10-05",
+   "id": "2026-10-05:0:eng/search:frontier-small",
+   "input_tokens": 90298550,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 9029855,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-10-05",
+   "id": "2026-10-05:1:eng/search:embedding",
+   "input_tokens": 411704271,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 7252699,
+   "day": "2026-10-05",
+   "id": "2026-10-05:2:eng/support-bot:frontier-large",
+   "input_tokens": 14505398,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2901079,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2367929,
+   "day": "2026-10-05",
+   "id": "2026-10-05:3:product/assist:frontier-large",
+   "input_tokens": 8287752,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2131136,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-10-05",
+   "id": "2026-10-05:4:data/etl:frontier-small",
+   "input_tokens": 56751509,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 5675150,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-05",
+   "id": "2026-10-05:5:data/etl:frontier-small",
+   "input_tokens": 3814969,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 381496,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-05",
+   "id": "2026-10-05:6:unattributed:frontier-large",
+   "input_tokens": 10897127,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1452950,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 4941362,
+   "day": "2026-10-05",
+   "id": "2026-10-05:7:product/assist:frontier-large",
+   "input_tokens": 39530900,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 4941362,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 30958088,
+   "day": "2026-10-06",
+   "id": "2026-10-06:0:eng/search:frontier-small",
+   "input_tokens": 92874264,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 9287426,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-10-06",
+   "id": "2026-10-06:1:eng/search:embedding",
+   "input_tokens": 438345816,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 5922676,
+   "day": "2026-10-06",
+   "id": "2026-10-06:2:eng/support-bot:frontier-large",
+   "input_tokens": 11845352,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2369070,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2514303,
+   "day": "2026-10-06",
+   "id": "2026-10-06:3:product/assist:frontier-large",
+   "input_tokens": 8800060,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2262872,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-10-06",
+   "id": "2026-10-06:4:data/etl:frontier-small",
+   "input_tokens": 57690201,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 5769020,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-06",
+   "id": "2026-10-06:5:data/etl:frontier-small",
+   "input_tokens": 3533884,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 353388,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-06",
+   "id": "2026-10-06:6:unattributed:frontier-large",
+   "input_tokens": 12521790,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1669572,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 4862245,
+   "day": "2026-10-06",
+   "id": "2026-10-06:7:product/assist:frontier-large",
+   "input_tokens": 38897966,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 4862245,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 28944890,
+   "day": "2026-10-07",
+   "id": "2026-10-07:0:eng/search:frontier-small",
+   "input_tokens": 86834672,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 8683467,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-10-07",
+   "id": "2026-10-07:1:eng/search:embedding",
+   "input_tokens": 407263460,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 7048275,
+   "day": "2026-10-07",
+   "id": "2026-10-07:2:eng/support-bot:frontier-large",
+   "input_tokens": 14096551,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2819310,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2412349,
+   "day": "2026-10-07",
+   "id": "2026-10-07:3:product/assist:frontier-large",
+   "input_tokens": 8443223,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2171114,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-10-07",
+   "id": "2026-10-07:4:data/etl:frontier-small",
+   "input_tokens": 62807941,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6280794,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-07",
+   "id": "2026-10-07:5:data/etl:frontier-small",
+   "input_tokens": 4179413,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 417941,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-07",
+   "id": "2026-10-07:6:unattributed:frontier-large",
+   "input_tokens": 12479690,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1663958,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 5163312,
+   "day": "2026-10-07",
+   "id": "2026-10-07:7:product/assist:frontier-large",
+   "input_tokens": 41306501,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 5163312,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 36198310,
+   "day": "2026-10-08",
+   "id": "2026-10-08:0:eng/search:frontier-small",
+   "input_tokens": 108594932,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 10859493,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-10-08",
+   "id": "2026-10-08:1:eng/search:embedding",
+   "input_tokens": 447741966,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 7143317,
+   "day": "2026-10-08",
+   "id": "2026-10-08:2:eng/support-bot:frontier-large",
+   "input_tokens": 14286635,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2857327,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2183454,
+   "day": "2026-10-08",
+   "id": "2026-10-08:3:product/assist:frontier-large",
+   "input_tokens": 7642090,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1965108,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-10-08",
+   "id": "2026-10-08:4:data/etl:frontier-small",
+   "input_tokens": 63227600,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6322760,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-08",
+   "id": "2026-10-08:5:data/etl:frontier-small",
+   "input_tokens": 4314262,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 431426,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-08",
+   "id": "2026-10-08:6:unattributed:frontier-large",
+   "input_tokens": 11786233,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1571497,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 4765246,
+   "day": "2026-10-08",
+   "id": "2026-10-08:7:product/assist:frontier-large",
+   "input_tokens": 38121970,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 4765246,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 37530426,
+   "day": "2026-10-09",
+   "id": "2026-10-09:0:eng/search:frontier-small",
+   "input_tokens": 112591280,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 11259128,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-10-09",
+   "id": "2026-10-09:1:eng/search:embedding",
+   "input_tokens": 386028708,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 7179281,
+   "day": "2026-10-09",
+   "id": "2026-10-09:2:eng/support-bot:frontier-large",
+   "input_tokens": 14358562,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2871712,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2875538,
+   "day": "2026-10-09",
+   "id": "2026-10-09:3:product/assist:frontier-large",
+   "input_tokens": 10064383,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2587984,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-10-09",
+   "id": "2026-10-09:4:data/etl:frontier-small",
+   "input_tokens": 56660637,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 5666063,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-09",
+   "id": "2026-10-09:5:data/etl:frontier-small",
+   "input_tokens": 4165501,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 416550,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-09",
+   "id": "2026-10-09:6:unattributed:frontier-large",
+   "input_tokens": 13358194,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1781092,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 4939894,
+   "day": "2026-10-09",
+   "id": "2026-10-09:7:product/assist:frontier-large",
+   "input_tokens": 39519157,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 4939894,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 13941204,
+   "day": "2026-10-10",
+   "id": "2026-10-10:0:eng/search:frontier-small",
+   "input_tokens": 41823614,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 4182361,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-10-10",
+   "id": "2026-10-10:1:eng/search:embedding",
+   "input_tokens": 182333053,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 2651906,
+   "day": "2026-10-10",
+   "id": "2026-10-10:2:eng/support-bot:frontier-large",
+   "input_tokens": 5303813,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1060762,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 1004808,
+   "day": "2026-10-10",
+   "id": "2026-10-10:3:product/assist:frontier-large",
+   "input_tokens": 3516830,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 904327,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-10-10",
+   "id": "2026-10-10:4:data/etl:frontier-small",
+   "input_tokens": 61054086,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6105408,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-10",
+   "id": "2026-10-10:5:data/etl:frontier-small",
+   "input_tokens": 1679236,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 167923,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-10",
+   "id": "2026-10-10:6:unattributed:frontier-large",
+   "input_tokens": 4790054,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 638673,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 3431630,
+   "day": "2026-10-10",
+   "id": "2026-10-10:7:product/assist:frontier-large",
+   "input_tokens": 27453047,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 3431630,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 12702831,
+   "day": "2026-10-11",
+   "id": "2026-10-11:0:eng/search:frontier-small",
+   "input_tokens": 38108495,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 3810849,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-10-11",
+   "id": "2026-10-11:1:eng/search:embedding",
+   "input_tokens": 169579199,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 2966159,
+   "day": "2026-10-11",
+   "id": "2026-10-11:2:eng/support-bot:frontier-large",
+   "input_tokens": 5932318,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1186463,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 1022474,
+   "day": "2026-10-11",
+   "id": "2026-10-11:3:product/assist:frontier-large",
+   "input_tokens": 3578659,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 920226,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-10-11",
+   "id": "2026-10-11:4:data/etl:frontier-small",
+   "input_tokens": 56929097,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 5692909,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-11",
+   "id": "2026-10-11:5:data/etl:frontier-small",
+   "input_tokens": 1519206,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 151920,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-11",
+   "id": "2026-10-11:6:unattributed:frontier-large",
+   "input_tokens": 5568003,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 742400,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 3898963,
+   "day": "2026-10-11",
+   "id": "2026-10-11:7:product/assist:frontier-large",
+   "input_tokens": 31191704,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 3898963,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 35217524,
+   "day": "2026-10-12",
+   "id": "2026-10-12:0:eng/search:frontier-small",
+   "input_tokens": 105652573,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 10565257,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-10-12",
+   "id": "2026-10-12:1:eng/search:embedding",
+   "input_tokens": 366604327,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 7330493,
+   "day": "2026-10-12",
+   "id": "2026-10-12:2:eng/support-bot:frontier-large",
+   "input_tokens": 14660986,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2932197,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2629636,
+   "day": "2026-10-12",
+   "id": "2026-10-12:3:product/assist:frontier-large",
+   "input_tokens": 9203727,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2366672,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-10-12",
+   "id": "2026-10-12:4:data/etl:frontier-small",
+   "input_tokens": 66062749,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6606274,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-12",
+   "id": "2026-10-12:5:data/etl:frontier-small",
+   "input_tokens": 4102662,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 410266,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-12",
+   "id": "2026-10-12:6:unattributed:frontier-large",
+   "input_tokens": 11951408,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1593521,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 5261222,
+   "day": "2026-10-12",
+   "id": "2026-10-12:7:product/assist:frontier-large",
+   "input_tokens": 42089777,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 5261222,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 30053290,
+   "day": "2026-10-13",
+   "id": "2026-10-13:0:eng/search:frontier-small",
+   "input_tokens": 90159870,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 9015987,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-10-13",
+   "id": "2026-10-13:1:eng/search:embedding",
+   "input_tokens": 461983906,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 7233549,
+   "day": "2026-10-13",
+   "id": "2026-10-13:2:eng/support-bot:frontier-large",
+   "input_tokens": 14467099,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2893419,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2462942,
+   "day": "2026-10-13",
+   "id": "2026-10-13:3:product/assist:frontier-large",
+   "input_tokens": 8620300,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2216648,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-10-13",
+   "id": "2026-10-13:4:data/etl:frontier-small",
+   "input_tokens": 64772060,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6477206,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-13",
+   "id": "2026-10-13:5:data/etl:frontier-small",
+   "input_tokens": 4434241,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 443424,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-13",
+   "id": "2026-10-13:6:unattributed:frontier-large",
+   "input_tokens": 10990271,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1465369,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 4666832,
+   "day": "2026-10-13",
+   "id": "2026-10-13:7:product/assist:frontier-large",
+   "input_tokens": 37334663,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 4666832,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 34720463,
+   "day": "2026-10-14",
+   "id": "2026-10-14:0:eng/search:frontier-small",
+   "input_tokens": 104161391,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 10416139,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-10-14",
+   "id": "2026-10-14:1:eng/search:embedding",
+   "input_tokens": 440683274,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 6953305,
+   "day": "2026-10-14",
+   "id": "2026-10-14:2:eng/support-bot:frontier-large",
+   "input_tokens": 13906610,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2781322,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2435484,
+   "day": "2026-10-14",
+   "id": "2026-10-14:3:product/assist:frontier-large",
+   "input_tokens": 8524195,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2191935,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-10-14",
+   "id": "2026-10-14:4:data/etl:frontier-small",
+   "input_tokens": 67633682,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6763368,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-14",
+   "id": "2026-10-14:5:data/etl:frontier-small",
+   "input_tokens": 4248972,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 424897,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-14",
+   "id": "2026-10-14:6:unattributed:frontier-large",
+   "input_tokens": 11140155,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1485354,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 4327496,
+   "day": "2026-10-14",
+   "id": "2026-10-14:7:product/assist:frontier-large",
+   "input_tokens": 34619968,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 4327496,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 37724011,
+   "day": "2026-10-15",
+   "id": "2026-10-15:0:eng/search:frontier-small",
+   "input_tokens": 113172035,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 11317203,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-10-15",
+   "id": "2026-10-15:1:eng/search:embedding",
+   "input_tokens": 462677915,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 7933544,
+   "day": "2026-10-15",
+   "id": "2026-10-15:2:eng/support-bot:frontier-large",
+   "input_tokens": 15867089,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 3173417,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2728692,
+   "day": "2026-10-15",
+   "id": "2026-10-15:3:product/assist:frontier-large",
+   "input_tokens": 9550423,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2455823,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-10-15",
+   "id": "2026-10-15:4:data/etl:frontier-small",
+   "input_tokens": 56860528,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 5686052,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-15",
+   "id": "2026-10-15:5:data/etl:frontier-small",
+   "input_tokens": 4062559,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 406255,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-15",
+   "id": "2026-10-15:6:unattributed:frontier-large",
+   "input_tokens": 10444755,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1392634,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 4625940,
+   "day": "2026-10-15",
+   "id": "2026-10-15:7:product/assist:frontier-large",
+   "input_tokens": 37007524,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 4625940,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 34207827,
+   "day": "2026-10-16",
+   "id": "2026-10-16:0:eng/search:frontier-small",
+   "input_tokens": 102623481,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 10262348,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-10-16",
+   "id": "2026-10-16:1:eng/search:embedding",
+   "input_tokens": 451356780,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 6867264,
+   "day": "2026-10-16",
+   "id": "2026-10-16:2:eng/support-bot:frontier-large",
+   "input_tokens": 13734529,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2746905,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2598304,
+   "day": "2026-10-16",
+   "id": "2026-10-16:3:product/assist:frontier-large",
+   "input_tokens": 9094065,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2338473,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-10-16",
+   "id": "2026-10-16:4:data/etl:frontier-small",
+   "input_tokens": 61650769,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6165076,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-16",
+   "id": "2026-10-16:5:data/etl:frontier-small",
+   "input_tokens": 4090405,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 409040,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-16",
+   "id": "2026-10-16:6:unattributed:frontier-large",
+   "input_tokens": 12459357,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1661247,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 5104490,
+   "day": "2026-10-16",
+   "id": "2026-10-16:7:product/assist:frontier-large",
+   "input_tokens": 40835926,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 5104490,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 13505170,
+   "day": "2026-10-17",
+   "id": "2026-10-17:0:eng/search:frontier-small",
+   "input_tokens": 40515511,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 4051551,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-10-17",
+   "id": "2026-10-17:1:eng/search:embedding",
+   "input_tokens": 183707449,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 2892319,
+   "day": "2026-10-17",
+   "id": "2026-10-17:2:eng/support-bot:frontier-large",
+   "input_tokens": 5784639,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1156927,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 1001196,
+   "day": "2026-10-17",
+   "id": "2026-10-17:3:product/assist:frontier-large",
+   "input_tokens": 3504186,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 901076,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-10-17",
+   "id": "2026-10-17:4:data/etl:frontier-small",
+   "input_tokens": 57746658,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 5774665,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-17",
+   "id": "2026-10-17:5:data/etl:frontier-small",
+   "input_tokens": 1599966,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 159996,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-17",
+   "id": "2026-10-17:6:unattributed:frontier-large",
+   "input_tokens": 4768434,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 635791,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 3554947,
+   "day": "2026-10-17",
+   "id": "2026-10-17:7:product/assist:frontier-large",
+   "input_tokens": 28439583,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 3554947,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 13813768,
+   "day": "2026-10-18",
+   "id": "2026-10-18:0:eng/search:frontier-small",
+   "input_tokens": 41441305,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 4144130,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-10-18",
+   "id": "2026-10-18:1:eng/search:embedding",
+   "input_tokens": 177607631,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 2871985,
+   "day": "2026-10-18",
+   "id": "2026-10-18:2:eng/support-bot:frontier-large",
+   "input_tokens": 5743971,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1148794,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 979713,
+   "day": "2026-10-18",
+   "id": "2026-10-18:3:product/assist:frontier-large",
+   "input_tokens": 3428998,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 881742,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-10-18",
+   "id": "2026-10-18:4:data/etl:frontier-small",
+   "input_tokens": 61516872,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6151687,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-18",
+   "id": "2026-10-18:5:data/etl:frontier-small",
+   "input_tokens": 1701154,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 170115,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-18",
+   "id": "2026-10-18:6:unattributed:frontier-large",
+   "input_tokens": 4925177,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 656690,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 11674797,
+   "day": "2026-10-18",
+   "id": "2026-10-18:7:product/assist:frontier-large",
+   "input_tokens": 93398378,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 11674797,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 35566924,
+   "day": "2026-10-19",
+   "id": "2026-10-19:0:eng/search:frontier-small",
+   "input_tokens": 106700774,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 10670077,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-10-19",
+   "id": "2026-10-19:1:eng/search:embedding",
+   "input_tokens": 414751760,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 6440451,
+   "day": "2026-10-19",
+   "id": "2026-10-19:2:eng/support-bot:frontier-large",
+   "input_tokens": 12880902,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2576180,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2674746,
+   "day": "2026-10-19",
+   "id": "2026-10-19:3:product/assist:frontier-large",
+   "input_tokens": 9361611,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2407271,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-10-19",
+   "id": "2026-10-19:4:data/etl:frontier-small",
+   "input_tokens": 56650208,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 5665020,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-19",
+   "id": "2026-10-19:5:data/etl:frontier-small",
+   "input_tokens": 4177566,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 417756,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-19",
+   "id": "2026-10-19:6:unattributed:frontier-large",
+   "input_tokens": 11219454,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1495927,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 12531530,
+   "day": "2026-10-19",
+   "id": "2026-10-19:7:product/assist:frontier-large",
+   "input_tokens": 100252244,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 12531530,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 32576006,
+   "day": "2026-10-20",
+   "id": "2026-10-20:0:eng/search:frontier-small",
+   "input_tokens": 97728018,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 9772801,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-10-20",
+   "id": "2026-10-20:1:eng/search:embedding",
+   "input_tokens": 482911816,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 7129163,
+   "day": "2026-10-20",
+   "id": "2026-10-20:2:eng/support-bot:frontier-large",
+   "input_tokens": 14258326,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2851665,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2460909,
+   "day": "2026-10-20",
+   "id": "2026-10-20:3:product/assist:frontier-large",
+   "input_tokens": 8613183,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2214818,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-10-20",
+   "id": "2026-10-20:4:data/etl:frontier-small",
+   "input_tokens": 57251917,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 5725191,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-20",
+   "id": "2026-10-20:5:data/etl:frontier-small",
+   "input_tokens": 4125015,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 412501,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-20",
+   "id": "2026-10-20:6:unattributed:frontier-large",
+   "input_tokens": 12357742,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1647698,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 17300438,
+   "day": "2026-10-20",
+   "id": "2026-10-20:7:product/assist:frontier-large",
+   "input_tokens": 138403511,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 17300438,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 37949712,
+   "day": "2026-10-21",
+   "id": "2026-10-21:0:eng/search:frontier-small",
+   "input_tokens": 113849137,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 11384913,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-10-21",
+   "id": "2026-10-21:1:eng/search:embedding",
+   "input_tokens": 460761695,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 7316272,
+   "day": "2026-10-21",
+   "id": "2026-10-21:2:eng/support-bot:frontier-large",
+   "input_tokens": 14632544,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2926508,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2793861,
+   "day": "2026-10-21",
+   "id": "2026-10-21:3:product/assist:frontier-large",
+   "input_tokens": 9778516,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2514475,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-10-21",
+   "id": "2026-10-21:4:data/etl:frontier-small",
+   "input_tokens": 65956509,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6595650,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-21",
+   "id": "2026-10-21:5:data/etl:frontier-small",
+   "input_tokens": 4233113,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 423311,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-21",
+   "id": "2026-10-21:6:unattributed:frontier-large",
+   "input_tokens": 12737107,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1698280,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 15159176,
+   "day": "2026-10-21",
+   "id": "2026-10-21:7:product/assist:frontier-large",
+   "input_tokens": 121273412,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 15159176,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 34640458,
+   "day": "2026-10-22",
+   "id": "2026-10-22:0:eng/search:frontier-small",
+   "input_tokens": 103921376,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 10392137,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-10-22",
+   "id": "2026-10-22:1:eng/search:embedding",
+   "input_tokens": 462303514,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 7223978,
+   "day": "2026-10-22",
+   "id": "2026-10-22:2:eng/support-bot:frontier-large",
+   "input_tokens": 14447957,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2889591,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2887502,
+   "day": "2026-10-22",
+   "id": "2026-10-22:3:product/assist:frontier-large",
+   "input_tokens": 10106260,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2598752,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-10-22",
+   "id": "2026-10-22:4:data/etl:frontier-small",
+   "input_tokens": 62146831,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6214683,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-22",
+   "id": "2026-10-22:5:data/etl:frontier-small",
+   "input_tokens": 4217980,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 421798,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-22",
+   "id": "2026-10-22:6:unattributed:frontier-large",
+   "input_tokens": 11847092,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1579612,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 21328840,
+   "day": "2026-10-22",
+   "id": "2026-10-22:7:product/assist:frontier-large",
+   "input_tokens": 170630720,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 21328840,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 37664843,
+   "day": "2026-10-23",
+   "id": "2026-10-23:0:eng/search:frontier-small",
+   "input_tokens": 112994529,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 11299452,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-10-23",
+   "id": "2026-10-23:1:eng/search:embedding",
+   "input_tokens": 438057690,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 7424352,
+   "day": "2026-10-23",
+   "id": "2026-10-23:2:eng/support-bot:frontier-large",
+   "input_tokens": 14848704,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2969740,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 3154820,
+   "day": "2026-10-23",
+   "id": "2026-10-23:3:product/assist:frontier-large",
+   "input_tokens": 11041872,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2839338,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-10-23",
+   "id": "2026-10-23:4:data/etl:frontier-small",
+   "input_tokens": 58764380,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 5876438,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-23",
+   "id": "2026-10-23:5:data/etl:frontier-small",
+   "input_tokens": 4209793,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 420979,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-23",
+   "id": "2026-10-23:6:unattributed:frontier-large",
+   "input_tokens": 12705924,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1694123,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 17011194,
+   "day": "2026-10-23",
+   "id": "2026-10-23:7:product/assist:frontier-large",
+   "input_tokens": 136089555,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 17011194,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 13079779,
+   "day": "2026-10-24",
+   "id": "2026-10-24:0:eng/search:frontier-small",
+   "input_tokens": 39239339,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 3923933,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-10-24",
+   "id": "2026-10-24:1:eng/search:embedding",
+   "input_tokens": 179874126,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 3029444,
+   "day": "2026-10-24",
+   "id": "2026-10-24:2:eng/support-bot:frontier-large",
+   "input_tokens": 6058889,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1211777,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 1172910,
+   "day": "2026-10-24",
+   "id": "2026-10-24:3:product/assist:frontier-large",
+   "input_tokens": 4105188,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1055619,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-10-24",
+   "id": "2026-10-24:4:data/etl:frontier-small",
+   "input_tokens": 62818400,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6281840,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-24",
+   "id": "2026-10-24:5:data/etl:frontier-small",
+   "input_tokens": 1602338,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 160233,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-24",
+   "id": "2026-10-24:6:unattributed:frontier-large",
+   "input_tokens": 5045829,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 672777,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 12542412,
+   "day": "2026-10-24",
+   "id": "2026-10-24:7:product/assist:frontier-large",
+   "input_tokens": 100339301,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 12542412,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 14281299,
+   "day": "2026-10-25",
+   "id": "2026-10-25:0:eng/search:frontier-small",
+   "input_tokens": 42843898,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 4284389,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-10-25",
+   "id": "2026-10-25:1:eng/search:embedding",
+   "input_tokens": 178818810,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 2933888,
+   "day": "2026-10-25",
+   "id": "2026-10-25:2:eng/support-bot:frontier-large",
+   "input_tokens": 5867776,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1173555,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 1150541,
+   "day": "2026-10-25",
+   "id": "2026-10-25:3:product/assist:frontier-large",
+   "input_tokens": 4026896,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1035487,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-10-25",
+   "id": "2026-10-25:4:data/etl:frontier-small",
+   "input_tokens": 56204848,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 5620484,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-25",
+   "id": "2026-10-25:5:data/etl:frontier-small",
+   "input_tokens": 1539646,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 153964,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-25",
+   "id": "2026-10-25:6:unattributed:frontier-large",
+   "input_tokens": 4801432,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 640190,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 10157880,
+   "day": "2026-10-25",
+   "id": "2026-10-25:7:product/assist:frontier-large",
+   "input_tokens": 81263040,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 10157880,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 34447947,
+   "day": "2026-10-26",
+   "id": "2026-10-26:0:eng/search:frontier-small",
+   "input_tokens": 103343843,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 10334384,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-10-26",
+   "id": "2026-10-26:1:eng/search:embedding",
+   "input_tokens": 392649925,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 7166980,
+   "day": "2026-10-26",
+   "id": "2026-10-26:2:eng/support-bot:frontier-large",
+   "input_tokens": 14333961,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2866792,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2873981,
+   "day": "2026-10-26",
+   "id": "2026-10-26:3:product/assist:frontier-large",
+   "input_tokens": 10058936,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2586583,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-10-26",
+   "id": "2026-10-26:4:data/etl:frontier-small",
+   "input_tokens": 62039022,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6203902,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-26",
+   "id": "2026-10-26:5:data/etl:frontier-small",
+   "input_tokens": 3986916,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 398691,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-26",
+   "id": "2026-10-26:6:unattributed:frontier-large",
+   "input_tokens": 11832878,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1577717,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 14591398,
+   "day": "2026-10-26",
+   "id": "2026-10-26:7:product/assist:frontier-large",
+   "input_tokens": 116731184,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 14591398,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 39370136,
+   "day": "2026-10-27",
+   "id": "2026-10-27:0:eng/search:frontier-small",
+   "input_tokens": 118110409,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 11811040,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-10-27",
+   "id": "2026-10-27:1:eng/search:embedding",
+   "input_tokens": 461204390,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 7995327,
+   "day": "2026-10-27",
+   "id": "2026-10-27:2:eng/support-bot:frontier-large",
+   "input_tokens": 15990654,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 3198130,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2647857,
+   "day": "2026-10-27",
+   "id": "2026-10-27:3:product/assist:frontier-large",
+   "input_tokens": 9267500,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2383071,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-10-27",
+   "id": "2026-10-27:4:data/etl:frontier-small",
+   "input_tokens": 59333120,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 5933312,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-27",
+   "id": "2026-10-27:5:data/etl:frontier-small",
+   "input_tokens": 3563315,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 356331,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-27",
+   "id": "2026-10-27:6:unattributed:frontier-large",
+   "input_tokens": 12561954,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1674927,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 18589738,
+   "day": "2026-10-27",
+   "id": "2026-10-27:7:product/assist:frontier-large",
+   "input_tokens": 148717904,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 18589738,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 31534392,
+   "day": "2026-10-28",
+   "id": "2026-10-28:0:eng/search:frontier-small",
+   "input_tokens": 94603177,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 9460317,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-10-28",
+   "id": "2026-10-28:1:eng/search:embedding",
+   "input_tokens": 446847948,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 7817991,
+   "day": "2026-10-28",
+   "id": "2026-10-28:2:eng/support-bot:frontier-large",
+   "input_tokens": 15635982,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 3127196,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2515285,
+   "day": "2026-10-28",
+   "id": "2026-10-28:3:product/assist:frontier-large",
+   "input_tokens": 8803500,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2263757,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-10-28",
+   "id": "2026-10-28:4:data/etl:frontier-small",
+   "input_tokens": 53428387,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 5342838,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-28",
+   "id": "2026-10-28:5:data/etl:frontier-small",
+   "input_tokens": 3744378,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 374437,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-28",
+   "id": "2026-10-28:6:unattributed:frontier-large",
+   "input_tokens": 11546958,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1539594,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 14615137,
+   "day": "2026-10-28",
+   "id": "2026-10-28:7:product/assist:frontier-large",
+   "input_tokens": 116921100,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 14615137,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 35760104,
+   "day": "2026-10-29",
+   "id": "2026-10-29:0:eng/search:frontier-small",
+   "input_tokens": 107280312,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 10728031,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-10-29",
+   "id": "2026-10-29:1:eng/search:embedding",
+   "input_tokens": 455873383,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 7850927,
+   "day": "2026-10-29",
+   "id": "2026-10-29:2:eng/support-bot:frontier-large",
+   "input_tokens": 15701855,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 3140371,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2948701,
+   "day": "2026-10-29",
+   "id": "2026-10-29:3:product/assist:frontier-large",
+   "input_tokens": 10320455,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2653831,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-10-29",
+   "id": "2026-10-29:4:data/etl:frontier-small",
+   "input_tokens": 65409553,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6540955,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-29",
+   "id": "2026-10-29:5:data/etl:frontier-small",
+   "input_tokens": 4279435,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 427943,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-29",
+   "id": "2026-10-29:6:unattributed:frontier-large",
+   "input_tokens": 11055447,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1474059,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 16140790,
+   "day": "2026-10-29",
+   "id": "2026-10-29:7:product/assist:frontier-large",
+   "input_tokens": 129126320,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 16140790,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 33522277,
+   "day": "2026-10-30",
+   "id": "2026-10-30:0:eng/search:frontier-small",
+   "input_tokens": 100566831,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 10056683,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-10-30",
+   "id": "2026-10-30:1:eng/search:embedding",
+   "input_tokens": 420973063,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 7556429,
+   "day": "2026-10-30",
+   "id": "2026-10-30:2:eng/support-bot:frontier-large",
+   "input_tokens": 15112859,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 3022571,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 2847433,
+   "day": "2026-10-30",
+   "id": "2026-10-30:3:product/assist:frontier-large",
+   "input_tokens": 9966016,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 2562689,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-10-30",
+   "id": "2026-10-30:4:data/etl:frontier-small",
+   "input_tokens": 61765284,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6176528,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-30",
+   "id": "2026-10-30:5:data/etl:frontier-small",
+   "input_tokens": 3619139,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 361913,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-30",
+   "id": "2026-10-30:6:unattributed:frontier-large",
+   "input_tokens": 11108896,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1481186,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 16960718,
+   "day": "2026-10-30",
+   "id": "2026-10-30:7:product/assist:frontier-large",
+   "input_tokens": 135685750,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 16960718,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  },
+  {
+   "cached_read_tokens": 14190851,
+   "day": "2026-10-31",
+   "id": "2026-10-31:0:eng/search:frontier-small",
+   "input_tokens": 42572555,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 4257255,
+   "tags": {
+    "env": "prod",
+    "feature": "query-rewrite"
+   },
+   "team": "eng/search"
+  },
+  {
+   "day": "2026-10-31",
+   "id": "2026-10-31:1:eng/search:embedding",
+   "input_tokens": 177009226,
+   "mode": "standard",
+   "model": "embedding",
+   "output_tokens": 0,
+   "tags": {
+    "env": "prod",
+    "feature": "index"
+   },
+   "team": "eng/search"
+  },
+  {
+   "cached_read_tokens": 3037971,
+   "day": "2026-10-31",
+   "id": "2026-10-31:2:eng/support-bot:frontier-large",
+   "input_tokens": 6075942,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 1215188,
+   "tags": {
+    "env": "prod",
+    "feature": "answers"
+   },
+   "team": "eng/support-bot"
+  },
+  {
+   "cached_read_tokens": 1093215,
+   "day": "2026-10-31",
+   "id": "2026-10-31:3:product/assist:frontier-large",
+   "input_tokens": 3826255,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 983894,
+   "tags": {
+    "env": "prod",
+    "feature": "drafts"
+   },
+   "team": "product/assist"
+  },
+  {
+   "day": "2026-10-31",
+   "id": "2026-10-31:4:data/etl:frontier-small",
+   "input_tokens": 62524579,
+   "mode": "batch",
+   "model": "frontier-small",
+   "output_tokens": 6252457,
+   "tags": {
+    "env": "prod",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-31",
+   "id": "2026-10-31:5:data/etl:frontier-small",
+   "input_tokens": 1634009,
+   "mode": "standard",
+   "model": "frontier-small",
+   "output_tokens": 163400,
+   "tags": {
+    "env": "staging",
+    "feature": "classify"
+   },
+   "team": "data/etl"
+  },
+  {
+   "day": "2026-10-31",
+   "id": "2026-10-31:6:unattributed:frontier-large",
+   "input_tokens": 4774726,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 636630,
+   "tags": {
+    "env": "prod"
+   },
+   "team": "unattributed"
+  },
+  {
+   "cached_read_tokens": 11100241,
+   "day": "2026-10-31",
+   "id": "2026-10-31:7:product/assist:frontier-large",
+   "input_tokens": 88801932,
+   "mode": "standard",
+   "model": "frontier-large",
+   "output_tokens": 11100241,
+   "tags": {
+    "env": "prod",
+    "feature": "agent-mode"
+   },
+   "team": "product/assist"
+  }
+ ],
+ "gates": {
+  "max_growth": 0.25,
+  "max_invoice_variance": 1.0,
+  "max_spike_days": 0,
+  "max_unattributed_share": 0.05,
+  "no_budget_breach": true,
+  "no_projected_breach": true
+ },
+ "invoice": [
+  {
+   "amount": "1245.95",
+   "cache_write_tokens": 0,
+   "cached_read_tokens": 0,
+   "input_tokens": 12459519637,
+   "model": "embedding",
+   "output_tokens": 0
+  },
+  {
+   "amount": "30219.94",
+   "cache_write_tokens": 0,
+   "cached_read_tokens": 537846989,
+   "input_tokens": 3195073089,
+   "model": "frontier-large",
+   "output_tokens": 460820326
+  },
+  {
+   "amount": "1114.61",
+   "cache_write_tokens": 0,
+   "cached_read_tokens": 872509679,
+   "input_tokens": 4593130550,
+   "model": "frontier-small",
+   "output_tokens": 459313011
+  }
+ ],
+ "modes": {
+  "batch": 0.5
+ },
+ "name": "Runaway launch, October 2026 (synthetic example)",
+ "prices": {
+  "embedding": {
+   "input": 0.1,
+   "output": 0.0
+  },
+  "frontier-large": [
+   {
+    "cache_write": 3.75,
+    "cached_read": 0.3,
+    "from": "2026-01-01",
+    "input": 3.0,
+    "long_context": {
+     "cache_write": 7.5,
+     "cached_read": 0.6,
+     "input": 6.0,
+     "output": 22.5,
+     "threshold": 200000
+    },
+    "output": 15.0
+   }
+  ],
+  "frontier-small": [
+   {
+    "cached_read": 0.03,
+    "from": "2026-01-01",
+    "input": 0.25,
+    "output": 1.25
+   },
+   {
+    "cached_read": 0.02,
+    "from": "2026-10-01",
+    "input": 0.2,
+    "output": 1.0
+   }
+  ]
+ },
+ "shared": [
+  {
+   "amount": "1500.00",
+   "basis": "cost",
+   "name": "platform commitment"
+  }
+ ],
+ "window": [
+  "2026-10-01",
+  "2026-10-31"
+ ]
+}
