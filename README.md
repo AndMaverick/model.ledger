@@ -1,6 +1,6 @@
 # model.ledger
 
-AI spend accounting that engineering and finance can both read, and an auditor can check. Every call is priced in exact decimals against a dated price book and written to a hash-chained ledger, so any later change to the history is detectable. Shared costs are allocated to the cent, budgets are projected, spikes are flagged robustly, a change in spend is explained as a price-volume-mix bridge that adds up exactly, and the ledger is reconciled to the provider invoice with every dollar of difference assigned to a cause. Standard library only. Python 3.10 to 3.13.
+AI spend accounting that engineering and finance can both read, and an auditor can check. Every call is priced in exact decimals against a dated price book and written to a hash chained ledger, so any later change to the history is detectable. Shared costs are allocated to the cent, budgets are projected, spikes are flagged robustly, a change in spend is explained as a price, volume and mix bridge that adds up exactly, and the ledger is reconciled to the provider invoice with every dollar of difference assigned to a cause. Standard library only. Python 3.10 to 3.13.
 
 AI cost problems rarely announce themselves. One team ships a prompt that doubles its context, and the bill moves a month later. A ledger that attributes every call to a team and a model makes that visible the day it happens, and one that reconciles to the invoice makes it something finance will sign.
 
@@ -39,10 +39,10 @@ ledger.by_team()       # {'search': 21.0}
 
 ## What it does
 
-- **Exact costing.** Prices are per million tokens and held as decimals, never floats. Rates are effective-dated, so a price cut on 1 October does not rewrite September. A long-context tier applies to the whole request when input, cached reads and cache writes together pass its threshold. Cache classes default to the input rate. Modes such as batch are multipliers you configure; only `standard` is built in. A model with no price on the day raises an error instead of costing zero.
+- **Exact costing.** Prices are per million tokens and held as decimals, never floats. Rates are tied to the date they take effect, so a price cut on 1 October does not rewrite September. A tier for long context applies to the whole request when input, cached reads and cache writes together pass its threshold. Cache classes default to the input rate. Modes such as batch are multipliers you configure; only `standard` is built in. A model with no price on the day raises an error instead of costing zero.
 - **Tamper evidence.** Each entry hashes the previous entry, the event and the exact cost. Changing, dropping, adding or reordering any event changes the head. Event ids are unique: a call counted twice, the commonest way a ledger drifts from the invoice, is refused (or skipped on request).
 - **Teams as a tree.** `eng/search` and `eng/support-bot` roll up to `eng`. Spend with no team lands in `unattributed`, and a gate caps its share.
-- **Shared costs.** A commitment or platform cost is spread across teams by cost, tokens or fixed weights using largest-remainder allocation: the shares add to the total to the cent and no share is more than one cent from its exact proportion, which is the best any whole-cent split can do.
+- **Shared costs.** A commitment or platform cost is spread across teams by cost, tokens or fixed weights using allocation by largest remainder: the shares add to the total to the cent and no share is more than one cent from its exact proportion, which is the best any split into whole cents can do.
 - **Budgets.** Spend against budget by team and month, a linear pace projection, and the day a budget was crossed.
 - **Spikes.** A day is flagged when it exceeds the median of the previous 28 days by `z` robust deviations (median absolute deviation, scaled, floored at 10 percent of the median). A spike does not raise the bar for the next one the way a mean and standard deviation do. Each flagged day names the teams above their own typical level.
 - **Why spend changed.** Between two periods, the change is split into volume, mix, rate, new and discontinued effects that add up to the change with no remainder, computed in exact fractions.
@@ -82,7 +82,7 @@ Gates
 RESULT: FAIL
 ```
 
-The two defects planted in that file are found: three days of embedding usage that never reached the ledger ($126.00, all usage variance) and a 1.2 percent effective rate error on the large model ($358.33, all rate variance). The launch itself shows up as a new agent-mode feature on the large model, which is why mix, not volume, carries most of the growth.
+The two defects planted in that file are found: three days of embedding usage that never reached the ledger ($126.00, all usage variance) and a 1.2 percent effective rate error on the large model ($358.33, all rate variance). The launch itself shows up as a new agent mode feature on the large model, which is why mix, not volume, carries most of the growth.
 
 ## File format
 
@@ -118,7 +118,7 @@ spike detection: 0 false alarms in 16600 clean days over 200 runs, 200 of 200 pl
 ingest speed on this machine (varies): 82,452 events per second
 ```
 
-The last line depends on the machine; the rest is deterministic. The test suite (87 tests) runs on Python 3.10 to 3.13 in CI, with ruff and strict mypy, and includes a check that output is byte-identical across different `PYTHONHASHSEED` values.
+The last line depends on the machine; the rest is deterministic. The test suite (87 tests) runs on Python 3.10 to 3.13 in CI, with ruff and strict mypy, and includes a check that output is identical byte for byte across different `PYTHONHASHSEED` values.
 
 ```
 python -m unittest discover -s tests -t . -v
@@ -126,8 +126,8 @@ python -m unittest discover -s tests -t . -v
 
 ## Honest limits
 
-- The spike result above is on synthetic series with 6 percent daily noise. A real series with promotions, outages or month-end batch jobs will behave differently, so tune `z` and the window on your own history. Measured on the same series, a planted weekday spike is found in 200 of 200 runs at 2x, 169 of 200 at 1.5x and 48 of 200 at 1.3x, by design: a small bump inside normal noise is not a spike.
-- The bridge compares the two periods as given. If they differ in length, volume carries that difference; normalize the windows first if you want a per-day comparison.
+- The spike result above is on synthetic series with 6 percent daily noise. A real series with promotions, outages or month end batch jobs will behave differently, so tune `z` and the window on your own history. Measured on the same series, a planted weekday spike is found in 200 of 200 runs at 2x, 169 of 200 at 1.5x and 48 of 200 at 1.3x, by design: a small bump inside normal noise is not a spike.
+- The bridge compares the two periods as given. If they differ in length, volume carries that difference; normalize the windows first if you want a comparison per day.
 - Spike drivers name the groups above their own typical level that day. Medians do not add, so the drivers are not an exact partition of the excess.
 - The budget projection is a linear pace (spend so far over days so far). It overstates a month with a spike near the start and understates one with a launch near the end.
 - Reconciliation assigns each difference to usage or rate, but cannot say why. A rate variance can be a stale price book, a discount, a commitment or provider rounding; that is for a person to decide.
