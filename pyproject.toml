@@ -4,12 +4,30 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "model.ledger"
-version = "0.1.0"
-description = "Token and dollar accounting for AI spend: cost by team and model, budget breaches, daily rollups, and spike detection. Dependency-free Python."
+version = "0.2.0"
+description = "AI spend accounting finance can audit: exact decimal costing with effective-dated price books, tamper-evident ledger, penny-exact shared-cost allocation, budget forecasts, robust spike detection, price-volume-mix bridges and invoice reconciliation. Dependency-free Python."
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [{ name = "AndMaverick LLC" }]
 
+[project.scripts]
+model-ledger = "model_ledger.cli:main"
+
+[tool.setuptools.package-data]
+model_ledger = ["py.typed"]
+
 [tool.setuptools.packages.find]
 include = ["model_ledger*"]
+
+[tool.ruff]
+line-length = 130
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "C4", "SIM"]
+ignore = ["E501"]
+
+[tool.mypy]
+strict = true
+files = ["model_ledger"]
